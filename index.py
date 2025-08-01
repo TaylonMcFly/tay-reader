@@ -41,7 +41,7 @@ def extract_text_or_ocr(page):
 class PDFReaderApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("PDF Reader + Translate")
+        self.root.title("Tay Reader")
         self.root.geometry("900x700")
         ctk.set_appearance_mode("dark")
         ctk.set_default_color_theme("blue")
